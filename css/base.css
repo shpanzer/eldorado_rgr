@@ -1,0 +1,259 @@
+main {
+    display: flex;
+    justify-content: center;
+  }
+  html,body {
+    font-family: 'Unbounded', cursive;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    background: #707070;
+  }
+
+  .button {
+    border: 1px solid #707070;
+    background-color: #378d78;
+    color: #ebecc8;
+    height: 27px;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Unbounded', cursive;
+    font-size: medium;
+    font-weight: 600;
+  }
+
+  .divbgbd {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    height: 100%;
+    padding: 0px, 30px, 0px;
+    background-color: #a7a07f;
+  }
+
+  .divbg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 700px;
+    height: 100%;
+    padding: 0px;
+    background-color: #a7a47f;
+  }
+
+  
+  .regform {
+    display: flex;
+    flex-direction: column;
+    background-color: #cfcca2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+
+  .regform a {
+    color: #378d7f;
+    text-decoration: none;
+  }
+
+  .regform a:link {
+    color: #378d7f;
+    text-decoration: none;
+  }
+
+  .regform a:active {
+    color: #378d78;
+    text-decoration: none;
+  }
+
+  .regform a:visited {
+    color: #378d78;
+    text-decoration: none;
+  }
+
+  .regform a:hover {
+    color: rgb(110, 110, 110);
+  }
+
+  .hehe {
+    text-align: center;
+  }
+
+  h2, p {
+    text-align: center;
+  }
+  
+  table {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #dfdbb9;
+  }
+  
+  th {
+    background-color: rgb(97, 87, 87);
+    color: #fff;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 0.5em 1em;
+  }
+  
+  td a:link {
+    color: black;
+  }
+
+  td a:visited {
+    color: black;
+  }
+
+  td a:hover {
+    color: rgb(110, 110, 110);
+  }
+
+  td::before {
+    display: none;
+  }
+  /*creator: Eugene Vlaskov KI-213*/
+  @media screen and (max-width: 680px) {
+   table {
+     border: 0;
+     display: block;
+     box-shadow: none;
+   }
+  
+   thead {
+     position: absolute;
+     opacity: 0;
+   }
+    
+   tbody {
+     display: block;
+     min-width: 19em;
+     max-width: 25em;
+   }
+  
+   tr {
+     border-top: 2px solid #3c3c3b;
+     border-bottom: 2px solid #3c3c3b;
+     display: block;
+     margin-bottom: 1em;
+   }
+  
+   td {
+     border-bottom: 1px solid #3c3c3b;
+     display: flex;
+   }
+  
+   td::before {
+     display: inline-block;
+     font-weight: bold;
+     margin-right: auto;
+     padding-right: 1em;
+   }
+  
+   td:last-child {
+     border-bottom: 0;
+   }
+  }
+a {
+    color: white;
+    text-decoration: none;
+ }
+  
+  
+a:link {
+    color: white;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+  
+a:focus {
+    color: white;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #9cd87a;
+    text-decoration: none;
+}
+  
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+  background-color: #000;
+}
+/* .container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 690px;
+}
+h2 {
+  font-family: Pixelicious, monospace;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: transparent;
+  filter: blur(0.3px);
+  animation: 2s ease-in-out infinite alternate pulse;
+}
+.video {
+  margin: 30px auto 30px;
+  display: flex;
+  justify-content: center;
+}
+@keyframes pulse {
+  0% {
+    text-shadow: rgba(255, 255, 255, 0.9) -0.06em -0.06em, rgba(67, 144, 126, 0.9) 0 0;
+  }
+  33% {
+    text-shadow: rgba(198, 242, 169, 0.9) -0.15em -0.15em, rgba(141, 55, 75, 0.9) 0 0;
+  }
+  66% {
+    text-shadow: rgba(220, 244, 204, 0.9) -0.06em -0.06em, rgba(141, 55, 75, 0.9) 0 0;
+  }
+  100% {
+    text-shadow: rgba(181, 242, 140, 0.9) -0.15em -0.15em, rgba(140, 30, 56, 0.9) 0 0;
+  }
+} */
+
+h3 {
+  text-align: center;
+  margin: 0px;
+}
+
+/* @keyframes pulse {
+  0% {
+    text-shadow: rgba(255, 255, 255, 0.9) -0.06em -0.06em, rgba(67, 144, 126, 0.9) 0 0;
+  }
+  33% {
+    text-shadow: rgba(204, 255, 252, 0.9) -0.15em -0.15em, rgba(157, 94, 186, 0.9) 0 0;
+  }
+  creator: Eugene Vlaskov KI-213
+  66% {
+    text-shadow: rgba(229, 255, 254, 0.9) -0.06em -0.06em, rgba(157, 94, 186, 0.9) 0 0;
+  }
+  100% {
+    text-shadow: rgba(179, 255, 251, 0.9) -0.15em -0.15em, rgba(202, 69, 215, 0.9) 0 0;
+  }
+} */
